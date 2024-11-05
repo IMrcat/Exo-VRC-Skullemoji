@@ -1631,4 +1631,5 @@ Oh and i wonder how much his ego hurts when the girl's he's been targeting call 
 3. Cyconi SS the girl's Address and saved them to his pc and to google maps
 4. Cyconi Logged me, one of those girls, and three other friends IP's while we were all in VR chilling and started Saying oh this is were you live ect
 5. Cyconi when he broke up with his one ex during WCV1 Peak, He dm mutipl to bully his now ex I.E to say hate fullshit like kys ect/ Double note he enjoy the Age Regression kink and this can be proven? How many times did yall erp again because you wanted to ? that 3y age diff goes hard sir almost 20 !!
-
+6. Cyconi Trying to hit me off with my own silly cats
+![alt text](https://media.discordapp.net/attachments/1168283301476315187/1303290637910540319/image.png?ex=672b377e&is=6729e5fe&hm=9806f263895aef62e1243af756adb9609b3190392741acbdfb22a5a8cd097a78&=&format=webp&quality=lossless)
