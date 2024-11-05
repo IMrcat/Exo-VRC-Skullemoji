@@ -1633,3 +1633,7 @@ Oh and i wonder how much his ego hurts when the girl's he's been targeting call 
 5. Cyconi when he broke up with his one ex during WCV1 Peak, He dm mutipl to bully his now ex I.E to say hate fullshit like kys ect/ Double note he enjoy the Age Regression kink and this can be proven? How many times did yall erp again because you wanted to ? that 3y age diff goes hard sir almost 20 !!
 6. Cyconi Trying to hit me off with my own silly cats
 ![alt text](https://media.discordapp.net/attachments/1168283301476315187/1303290637910540319/image.png?ex=672b377e&is=6729e5fe&hm=9806f263895aef62e1243af756adb9609b3190392741acbdfb22a5a8cd097a78&=&format=webp&quality=lossless)
+7. Sounds clips of cyconi spreading miss info to one of the girl's, I wonder if he can back a name to the "Girls" i hit on  
+- https://cdn.discordapp.com/attachments/1284965312797741160/1284965574648004709/Record_2024-09-15_at_02h45m48s.wav?ex=672b20b2&is=6729cf32&hm=9e84fd76c1b1237fade47b900cdb6b02b959f991c1d18ccd0e429397c8bfd5ce&
+8. Cyconi Spreading more mis info, And a very funny sound byte with his fav little female minor !!!, And keep in mind Cyconi being the "Nice person" ect is him asking way to personal questions, Being creepy af, and Spreading miss info about me which is so easy to disprove because i do the same thing on the daily with guy's i chill with !!
+- https://cdn.discordapp.com/attachments/1168283301476315187/1303291899498463253/Record_2024-09-15_at_02h29m53s.wav?ex=672b38aa&is=6729e72a&hm=1b5d299e516677a0d5ed878f27cd2ee5c448e1492809098caf42e86c76b6691a&
