@@ -1623,3 +1623,12 @@ There's more goofy dm ss's like that but they have the other persons name in the
 3. So when we called him out in a about 1 hour ish long vc with me and 2 other's, and just sate this he back tracked alot or pulled the idk card on us, This is when he leave's and kicks us out his server's ect start this goofy ahhhh hate train to fuel his ego, if you want to learn more about this just dm me lmao i'll explain and show more than a 1 sided story like he's been doing
 
 Oh and i wonder how much his ego hurts when the girl's he's been targeting call him a creep and a werido for trying to start crap and for hitting on them after a day of knowing them XD, Also keep in mind some of his fav female friends to hang out with are below the age of 16 !!!!! Not saying anything but those dms we saw for a few sec's while in that vc where kinda telling. One more note 9 girl's under 4 months is crazy Ight Peace vrchatians 
+
+
+## Extra Notes
+1. The User's database to exo  was hosted on a public github repo https://gist.github.com/Cyconi/be98f0ddc0c3ede11fd2083e332070df , Which was stored in this format DISCORDID : HWID : IP : SUBTIME
+2. Cyconi was told by me and other's to update his server/security/User privacy stuff but he decided not to because he was in his own words "To lazy", So if this is the person you want to store your userdata/prevent you from getting enjoy that :SkullEmoji:
+3. Cyconi SS the girl's Address and saved them to his pc and to google maps
+4. Cyconi Logged me, one of those girls, and three other friends IP's while we were all in VR chilling and started Saying oh this is were you live ect
+5. Cyconi when he broke up with his one ex during WCV1 Peak, He dm mutipl to bully his now ex I.E to say hate fullshit like kys ect/ Double note he enjoy the Age Regression kink and this can be proven? How many times did yall erp again because you wanted to ? that 3y age diff goes hard sir almost 20 !!
+
