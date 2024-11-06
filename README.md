@@ -1661,6 +1661,9 @@ Oh and i wonder how much his ego hurts when the girl's he's been targeting call 
 
 [Meow](https://media.discordapp.net/attachments/1303622326386032640/1303622374184321105/68747470733a2f2f6d656469612e646973636f72646170702e6e65742f6174746163686d656e74732f313136383238333330313437363331353138372f313330333239303633373931303534303331392f696d6167652e706e673f65783d36373262333737652669733d3.webp?ex=672c6c72&is=672b1af2&hm=700429daa18782e9ebac063992d36c3dbcbde1316e2feff13746ed0cdb5bd54d&=&format=webp)
 
+[Meow](https://media.discordapp.net/attachments/1303622326386032640/1303656380158185482/Screenshot_2024-11-06_044437.png?ex=672c8c1d&is=672b3a9d&hm=3daf190c16fd2f1d8fada0feca245e4edcc77f158d07db9e5abd2cef0784cb70&=&format=webp&quality=lossless)
+
+
 7. Sounds clips of cyconi spreading miss info to one of the girl's, I wonder if he can back a name to the "Girls" i hit on
 - https://cdn.discordapp.com/attachments/1284965312797741160/1284965574648004709/Record_2024-09-15_at_02h45m48s.wav?ex=672b20b2&is=6729cf32&hm=9e84fd76c1b1237fade47b900cdb6b02b959f991c1d18ccd0e429397c8bfd5ce&
 
