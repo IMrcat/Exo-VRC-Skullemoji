@@ -9,6 +9,10 @@ Below i will be sharing very unwanted/cringy edrama caused and started because o
 > 5. Your unoriginal and have no Rizz
 
 
+## SIDE NOTE
+- I forgot discord changed the url link every 25 hours so all imgs have been put in the Pictures folder, im to lazy to relink all those but it's easy to tell which go with which statement. Might fix later uh huh
+
+
 Alright let's get started with this review of the code blocks that are blatantly pasted/ Chatgpt/ Spoonfed
 1. This code is reversed/Deob so will not be 1:1
 2. We will not be sharing any actually assembly's or full code blocks due to parts being 1:1 pasted from WCV2
