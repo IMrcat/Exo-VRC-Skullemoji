@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EE8688D6-3FC9-4EE5-B49B-13AC75E17839}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EXO</RootNamespace>
+    <AssemblyName>EXO</AssemblyName>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <TargetFrameworkIdentifier>.NETCoreApp</TargetFrameworkIdentifier>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\net8.0-windows\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>..\..\..\net8.0-windows\Assembly-CSharp-firstpass.dll</HintPath>
+    </Reference>
+    <Reference Include="ConsoleTool">
+      <HintPath>..\..\..\net8.0-windows\ConsoleTool.dll</HintPath>
+    </Reference>
+    <Reference Include="CoreRuntime">
+      <HintPath>..\..\..\net8.0-windows\CoreRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="DataModel">
+      <HintPath>..\..\..\net8.0-windows\DataModel.dll</HintPath>
+    </Reference>
+    <Reference Include="DiscordRPC">
+      <HintPath>..\..\..\net8.0-windows\DiscordRPC.dll</HintPath>
+    </Reference>
+    <Reference Include="EXO\u0020Base">
+      <HintPath>..\..\..\net8.0-windows\EXO Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\net8.0-windows\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\net8.0-windows\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem">
+      <HintPath>..\..\..\net8.0-windows\Il2CppSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\..\net8.0-windows\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Localization.LocalizableString">
+      <HintPath>..\..\..\net8.0-windows\Localization.LocalizableString.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Registry" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\net8.0-windows\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NotHarmony">
+      <HintPath>..\..\..\net8.0-windows\NotHarmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Photon-DotNet">
+      <HintPath>..\..\..\net8.0-windows\Photon-DotNet.dll</HintPath>
+    </Reference>
+    <Reference Include="SteamVR">
+      <HintPath>..\..\..\net8.0-windows\SteamVR.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections" />
+    <Reference Include="System.ComponentModel.Primitives" />
+    <Reference Include="System.Console" />
+    <Reference Include="System.Diagnostics.Process" />
+    <Reference Include="System.IO.FileSystem.Watcher" />
+    <Reference Include="System.Linq" />
+    <Reference Include="System.Memory" />
+    <Reference Include="System.Net.NameResolution" />
+    <Reference Include="System.Net.Primitives" />
+    <Reference Include="System.Net.WebClient" />
+    <Reference Include="System.Runtime" />
+    <Reference Include="System.Runtime.InteropServices" />
+    <Reference Include="System.Text.RegularExpressions" />
+    <Reference Include="System.Threading" />
+    <Reference Include="Unity.InputSystem">
+      <HintPath>..\..\..\net8.0-windows\Unity.InputSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\net8.0-windows\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.SubsystemsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>..\..\..\net8.0-windows\UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon">
+      <HintPath>..\..\..\net8.0-windows\VRC.Udon.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.Common">
+      <HintPath>..\..\..\net8.0-windows\VRC.Udon.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.Udon.VRCWrapperModules">
+      <HintPath>..\..\..\net8.0-windows\VRC.Udon.VRCWrapperModules.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Core">
+      <HintPath>..\..\..\net8.0-windows\VRC.UI.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Elements">
+      <HintPath>..\..\..\net8.0-windows\VRC.UI.Elements.dll</HintPath>
+    </Reference>
+    <Reference Include="VRC.UI.Shared">
+      <HintPath>..\..\..\net8.0-windows\VRC.UI.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Editor">
+      <HintPath>..\..\..\net8.0-windows\VRCCore-Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCCore-Standalone">
+      <HintPath>..\..\..\net8.0-windows\VRCCore-Standalone.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK2">
+      <HintPath>..\..\..\net8.0-windows\VRCSDK2.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3">
+      <HintPath>..\..\..\net8.0-windows\VRCSDK3.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDK3A">
+      <HintPath>..\..\..\net8.0-windows\VRCSDK3A.dll</HintPath>
+    </Reference>
+    <Reference Include="VRCSDKBase">
+      <HintPath>..\..\..\net8.0-windows\VRCSDKBase.dll</HintPath>
+    </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>..\..\..\net8.0-windows\websocket-sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="WebTransMtn">
+      <HintPath>..\..\..\net8.0-windows\WebTransMtn.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="--F{00000008}.cs" />
+    <Compile Include="--F{00000048}.cs" />
+    <Compile Include="AppStart.cs" />
+    <Compile Include="Config.cs" />
+    <Compile Include="ConfigInit.cs" />
+    <Compile Include="ConfigManager.cs" />
+    <Compile Include="ConfigSettings.cs" />
+    <Compile Include="Core\FunctionCore.cs" />
+    <Compile Include="Core\FunctionModule.cs" />
+    <Compile Include="Core\MenuCore.cs" />
+    <Compile Include="Core\MenuModule.cs" />
+    <Compile Include="Core\ModsModule.cs" />
+    <Compile Include="Core\ModuleCore.cs" />
+    <Compile Include="Core\PatchCore.cs" />
+    <Compile Include="Core\PatchModule.cs" />
+    <Compile Include="Core\TypeSafe.cs" />
+    <Compile Include="Functions\Avatar\AviFavs.cs" />
+    <Compile Include="Functions\Avatar\AviUtils.cs" />
+    <Compile Include="Functions\Avatar\KeyWords.cs" />
+    <Compile Include="Functions\External\AnalyticsPreventer.cs" />
+    <Compile Include="Functions\External\ConsoleApp.cs" />
+    <Compile Include="Functions\External\GetDependencies.cs" />
+    <Compile Include="Functions\External\TraceCleaner.cs" />
+    <Compile Include="Functions\InputManager\InputMap.cs" />
+    <Compile Include="Functions\InputManager\KeybindInputs.cs" />
+    <Compile Include="Functions\Item\AntiTheft.cs" />
+    <Compile Include="Functions\Item\ItemOrbit.cs" />
+    <Compile Include="Functions\Managers\PlayerInit.cs" />
+    <Compile Include="Functions\Managers\SceneLoadDetector.cs" />
+    <Compile Include="Functions\Managers\UpdateManager.cs" />
+    <Compile Include="Functions\MenuOverrides\ActionMenuOverride.cs" />
+    <Compile Include="Functions\MenuOverrides\ColorPaletteOverride.cs" />
+    <Compile Include="Functions\MenuOverrides\DashOverride.cs" />
+    <Compile Include="Functions\MenuOverrides\HorizontalLayoutGroupAdjuster.cs" />
+    <Compile Include="Functions\MenuOverrides\LoadingScreen.cs" />
+    <Compile Include="Functions\MenuOverrides\MenuBG.cs" />
+    <Compile Include="Functions\MenuOverrides\MenuMusic.cs" />
+    <Compile Include="Functions\MenuOverrides\QMConsole.cs" />
+    <Compile Include="Functions\MenuOverrides\TabExtender.cs" />
+    <Compile Include="Functions\PlayerFunc\AntiBlock.cs" />
+    <Compile Include="Functions\PlayerFunc\AttachToPlayer.cs" />
+    <Compile Include="Functions\PlayerFunc\CamTweaks.cs" />
+    <Compile Include="Functions\PlayerFunc\HeadLight.cs" />
+    <Compile Include="Functions\PlayerFunc\HeadRotate.cs" />
+    <Compile Include="Functions\PlayerFunc\MoveFunc.cs" />
+    <Compile Include="Functions\PlayerFunc\ThirdPerson.cs" />
+    <Compile Include="Functions\PlayerFunc\Zoom.cs" />
+    <Compile Include="Functions\Render\BoneESP.cs" />
+    <Compile Include="Functions\Render\ControllerPointer.cs" />
+    <Compile Include="Functions\Render\ESPs.cs" />
+    <Compile Include="Functions\Render\LaserSight.cs" />
+    <Compile Include="Functions\Render\LineESP.cs" />
+    <Compile Include="Functions\Serialization.cs" />
+    <Compile Include="Keybindings.cs" />
+    <Compile Include="LogReaderRegex.cs" />
+    <Compile Include="LogTools\CLog.cs" />
+    <Compile Include="LogTools\GUILog.cs" />
+    <Compile Include="LogTools\LogEvent.cs" />
+    <Compile Include="LogTools\ScreenAPI.cs" />
+    <Compile Include="LogTools\WriteToCon.cs" />
+    <Compile Include="Menus\ActionWheel\ActionWheelMenu.cs" />
+    <Compile Include="Menus\BigMenu\AvatarFavMenu.cs" />
+    <Compile Include="Menus\BigMenu\CarouselMenu.cs" />
+    <Compile Include="Menus\ColorMenus.cs" />
+    <Compile Include="Menus\DashMenu.cs" />
+    <Compile Include="Menus\DevMenu.cs" />
+    <Compile Include="Menus\MainMenu.cs" />
+    <Compile Include="Menus\SelectMenus\AttachSelect.cs" />
+    <Compile Include="Menus\SelectMenus\BringItems.cs" />
+    <Compile Include="Menus\SelectMenus\ListenerSelect.cs" />
+    <Compile Include="Menus\SelectMenus\OrbitSelect.cs" />
+    <Compile Include="Menus\SelectMenus\SelectMenu.cs" />
+    <Compile Include="Menus\SelectMenus\UtilsSelect.cs" />
+    <Compile Include="Menus\SelectMenus\WorldSelect.cs" />
+    <Compile Include="Menus\SubMenus\AmongUs.cs" />
+    <Compile Include="Menus\SubMenus\AvatarMenu.cs" />
+    <Compile Include="Menus\SubMenus\Blackout.cs" />
+    <Compile Include="Menus\SubMenus\Ghost.cs" />
+    <Compile Include="Menus\SubMenus\Infested.cs" />
+    <Compile Include="Menus\SubMenus\MovementMenu.cs" />
+    <Compile Include="Menus\SubMenus\Murder4.cs" />
+    <Compile Include="Menus\SubMenus\PrisonEsc.cs" />
+    <Compile Include="Menus\SubMenus\SettingsMenu.cs" />
+    <Compile Include="Menus\SubMenus\Settings\BindsMenu.cs" />
+    <Compile Include="Menus\SubMenus\Settings\LogMenu.cs" />
+    <Compile Include="Menus\SubMenus\Settings\MenuMenu.cs" />
+    <Compile Include="Menus\SubMenus\UtilsMenu.cs" />
+    <Compile Include="Menus\SubMenus\VisualsMenu.cs" />
+    <Compile Include="Menus\SubMenus\Visuals\CamMenu.cs" />
+    <Compile Include="Menus\SubMenus\WorldCheats.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\HParty.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\ItemMenu.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\MagicFreeze.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\STD.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\Sunset.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\TerrorsNowhere.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\ZombieSurvival.cs" />
+    <Compile Include="Menus\SubMenus\WorldEx\ZombieTag.cs" />
+    <Compile Include="Modules\API\AvatarObject.cs" />
+    <Compile Include="Modules\API\Platforms.cs" />
+    <Compile Include="Modules\API\User.cs" />
+    <Compile Include="Modules\API\UserRank.cs" />
+    <Compile Include="Modules\API\UserRankColor.cs" />
+    <Compile Include="Modules\API\World.cs" />
+    <Compile Include="Modules\DiscordClient.cs" />
+    <Compile Include="Modules\FriendLogger.cs" />
+    <Compile Include="Modules\HudDisplay.cs" />
+    <Compile Include="Modules\LogReader.cs" />
+    <Compile Include="Modules\NamePlates.cs" />
+    <Compile Include="Modules\PhotonExtensions.cs" />
+    <Compile Include="Modules\RuntimeBtns.cs" />
+    <Compile Include="Modules\RuntimeJson.cs" />
+    <Compile Include="Modules\Tools\ILogger.cs" />
+    <Compile Include="Modules\Tools\JsonParser.cs" />
+    <Compile Include="Modules\Tools\MicroJsonSerializer.cs" />
+    <Compile Include="Modules\Tools\ParserException.cs" />
+    <Compile Include="Modules\Tools\TextWriterLogger.cs" />
+    <Compile Include="Modules\Utilities\GetNext.cs" />
+    <Compile Include="Modules\Utilities\GetUser.cs" />
+    <Compile Include="Modules\Utilities\ImageHandleing.cs" />
+    <Compile Include="Modules\Utilities\OtherUtils.cs" />
+    <Compile Include="Modules\Utilities\UdonUtils.cs" />
+    <Compile Include="Modules\Utilities\UtilFunc.cs" />
+    <Compile Include="Patches\ActionWheelPatch.cs" />
+    <Compile Include="Patches\AmplitudeWrapperPatch.cs" />
+    <Compile Include="Patches\EventPatch.cs" />
+    <Compile Include="Patches\HWIDPatch.cs" />
+    <Compile Include="Patches\InteractablePatch.cs" />
+    <Compile Include="Patches\JoinLeavePatch.cs" />
+    <Compile Include="Patches\MainMenuPatch.cs" />
+    <Compile Include="Patches\OpEvents.cs" />
+    <Compile Include="Patches\PatchHandlers\RPCHandle.cs" />
+    <Compile Include="Patches\PhoneBookPatch.cs" />
+    <Compile Include="Patches\PickUpPatch.cs" />
+    <Compile Include="Patches\QuickMenuPatch.cs" />
+    <Compile Include="Patches\ScannerPatch.cs" />
+    <Compile Include="Patches\UdonSyncPatch.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RenderSettings.cs" />
+    <Compile Include="StartMsgs.cs" />
+    <Compile Include="System\Text\RegularExpressions\Generated\-RegexGenerator_g-FCEA4971BCB569DC71BF0F67619934F4E5B552059C.2.cs" />
+    <Compile Include="System\Text\RegularExpressions\Generated\-RegexGenerator_g-FCEA4971BCB569DC71BF0F67619934F4E5B552059C.cs" />
+    <Compile Include="WorldAPI\APIBase.cs" />
+    <Compile Include="WorldAPI\Base64.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\AM\ActionMenuBaseMenu.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\AM\ActionMenuButton.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\AM\ActionMenuPage.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\AM\ActionMenuToggle.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\AM\ActionWheelAPI.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\Groups\DuoButtons.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\Groups\DuoToggles.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\Groups\GrpButtons.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\VRCButton.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\VRCLable.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Buttons\VRCToggle.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Controls\ButtonGroupControl.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Controls\ExtentedControl.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Controls\Root.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Controls\ToggleControl.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Extras\QMUtils.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Groups\ButtonGroup.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Groups\CollapsibleButtonGroup.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\Carousel\CMenu.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\Carousel\Items\CGrp.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\Carousel\Items\CToggle.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\MMCarousel.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\MMPage.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\MM\MMTab.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\Items\QMCFuncButton.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\Items\QMCSelector.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\Items\QMCSlider.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\Items\QMCTitle.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\Items\QMCToggle.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Carousel\QMCGroup.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Controls\WorldPage.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Extras\VRCSlider.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\QM\Wing\WingButton.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\Tab.cs" />
+    <Compile Include="WorldAPI\ButtonAPI\VRCPage.cs" />
+    <Compile Include="WorldAPI\Colour.cs" />
+    <Compile Include="WorldAPI\Logs.cs" />
+    <Compile Include="WorldAPI\SafeUtils.cs" />
+    <Compile Include="Wrappers\PlayerWrapper.cs" />
+    <Compile Include="Wrappers\WorldWrapper.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
